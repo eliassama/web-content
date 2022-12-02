@@ -21,10 +21,10 @@ const milvusClient = new MilvusClient(MILUVS_ADDRESS);
 
 ```javascript
 const milvusAddress = `192.168.0.1:19530`;
-const milvusClient = new MilvusClien(MILUVS_ADDRESS);
+const milvusClient = new MilvusClient(milvusAddress);
 // if you have a user, username and password both is milvus, you can
-const milvusClient2 = new MilvusClien(
-  MILUVS_ADDRESS,
+const milvusClient2 = new MilvusClient(
+  milvusAddress,
   false,
   "milvus",
   "milvus"
